@@ -1,0 +1,1826 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenuSysControl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x7cfb;&#x7edf;&#x7ba1;&#x7406;"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+            </Property>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemUserControl">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x7528;&#x6237;&#x7ba1;&#x7406;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemUserControlActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemUserPermision">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x7528;&#x6237;&#x6388;&#x6743;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemUserPermisionActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator2">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemRoleControl">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x89d2;&#x8272;&#x7ba1;&#x7406;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemRoleControlActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemRolePermision">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x89d2;&#x8272;&#x6388;&#x6743;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemRolePermisionActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator9">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemDict">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x6570;&#x636e;&#x5b57;&#x5178;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemDictActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator14">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemInvestmentAdviser">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x6295;&#x987e;&#x7ba1;&#x7406;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemInvestmentAdviserActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemMasterControl">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x4e3b;&#x7ba1;&#x8bbe;&#x7f6e;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemMasterControlActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator17">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemMarketMatchAmount">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x5f55;&#x5165;&#x4fee;&#x6539;&#x5e02;&#x573a;&#x6210;&#x4ea4;&#x603b;&#x91cf;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemMarketMatchAmountActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator16">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemStockList">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x884c;&#x60c5;&#x5b9e;&#x65f6;&#x91c7;&#x96c6;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemStockListActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemSetSysParameters">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x8bbe;&#x7f6e;&#x7cfb;&#x7edf;&#x529f;&#x80fd;&#x9009;&#x9879;&#x53c2;&#x6570;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemSetSysParametersActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemSetWorkFlow">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x8bbe;&#x7f6e;&#x5de5;&#x4f5c;&#x6d41;&#x7a0b;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemSetWorkFlowActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenuServiceManagement">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x670d;&#x52a1;&#x7ba1;&#x7406;"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuServiceManagementActionPerformed"/>
+          </Events>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemAssignCallback">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x56de;&#x8bbf;&#x5b89;&#x6392;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemAssignCallbackActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemAssignService">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x670d;&#x52a1;&#x5b89;&#x6392;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemAssignServiceActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemAutoAssign">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x81ea;&#x52a8;&#x5206;&#x914d;&#x5ba2;&#x6237;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemAutoAssignActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator1">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemCallback">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x5ba2;&#x6237;&#x56de;&#x8bbf;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemCallbackActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemService">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x5ba2;&#x6237;&#x670d;&#x52a1;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemServiceActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator10">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemFindCallback">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x67e5;&#x8be2;&#x56de;&#x8bbf;&#x5b89;&#x6392;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemFindCallbackActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemFindAssignService">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x67e5;&#x8be2;&#x670d;&#x52a1;&#x5b89;&#x6392;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemFindAssignServiceActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemsearchServiceLog">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x67e5;&#x8be2;&#x670d;&#x52a1;&#x4fe1;&#x606f;&#x4fee;&#x6539;&#x65e5;&#x5fd7;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemsearchServiceLogActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator18">
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="jMenuInvestmenAdvisory">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x6295;&#x8d44;&#x987e;&#x95ee;&#x4e1a;&#x52a1;"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemContractMagement">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x5ba2;&#x6237;&#x7b7e;&#x7ea6;&#x7ba1;&#x7406;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemContractMagementActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemSumContractedClient">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x7b7e;&#x7ea6;&#x5ba2;&#x6237;&#x7edf;&#x8ba1;&#x67e5;&#x8be2;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemSumContractedClientActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JSeparator" name="jSeparator13">
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemStockPool1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x80a1;&#x7968;&#x6c60;&#x7ba1;&#x7406;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemStockPool1ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemjMenuItemMessageManagement">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x4e13;&#x5bb6;&#x8350;&#x80a1;&#x6d88;&#x606f;&#x7ba1;&#x7406;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemjMenuItemMessageManagementActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemInform">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8350;&#x80a1;&#x6d88;&#x606f;&#x5ba2;&#x6237;&#x544a;&#x77e5;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemInformActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemClearMessage">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8350;&#x80a1;&#x6d88;&#x606f;&#x6e05;&#x7406;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jMenuItemClearMessageMouseClicked"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemClearMessageActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemRealMontitor">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x7b7e;&#x7ea6;&#x5ba2;&#x6237;&#x8d44;&#x4ea7;&#x76d1;&#x63a7;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemRealMontitorActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JSeparator" name="jSeparator20">
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemAssetMonitor">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x4e00;&#x822c;&#x5ba2;&#x6237;&#x80a1;&#x7968;&#x76c8;&#x4e8f;&#x76d1;&#x63a7;&#x8868;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemAssetMonitorActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemFindStockBalance">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x67e5;&#x8be2;&#x5ba2;&#x6237;&#x8bc1;&#x5238;&#x8d44;&#x4ea7;(&#x6765;&#x81ea;&#x4ea4;&#x6613;&#x7cfb;&#x7edf;)"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemFindStockBalanceActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemMarginTradingStokAsset">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x67e5;&#x8be2;&#x4e24;&#x878d;&#x5ba2;&#x6237;&#x8bc1;&#x5238;&#x8d44;&#x4ea7;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemMarginTradingStokAssetActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JSeparator" name="jSeparator28">
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemSumMatch2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x6295;&#x987e;-&#x8425;&#x4e1a;&#x90e8;&#x6210;&#x4ea4;&#x6c47;&#x603b;&#x5bf9;&#x6bd4;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemSumMatch2ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemSumMatch">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x6295;&#x987e;&#x63a8;&#x8350;&#x80a1;&#x7968;&#x6210;&#x4ea4;&#x6c47;&#x603b;&#x53ca;&#x660e;&#x7ec6;&#x67e5;&#x8be2;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemSumMatchActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JSeparator" name="jSeparator34">
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemClientMatchDetails">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x67e5;&#x8be2;&#x5ba2;&#x6237;&#x5386;&#x53f2;&#x6210;&#x4ea4;&#x660e;&#x7ec6;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemClientMatchDetailsActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemFindOrder">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x67e5;&#x8be2;&#x5ba2;&#x6237;&#x5f53;&#x65e5;&#x59d4;&#x6258;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemFindOrderActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator23">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemGrantServiceRelation">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x670d;&#x52a1;&#x5173;&#x7cfb;&#x8f6c;&#x6388;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemGrantServiceRelationActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemAssignLog">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x67e5;&#x8be2;&#x670d;&#x52a1;&#x5b89;&#x6392;&#x65e5;&#x5fd7;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemAssignLogActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemCallbackInDetails">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x5ba2;&#x6237;&#x8be6;&#x7ec6;&#x56de;&#x8bbf;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemCallbackInDetailsActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemSearchByCallbackDetails">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x6309;&#x8be6;&#x7ec6;&#x56de;&#x8bbf;&#x4fe1;&#x606f;&#x7ec4;&#x5408;&#x67e5;&#x8be2;&#x5ba2;&#x6237;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemSearchByCallbackDetailsActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenuClientSearch">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x5ba2;&#x6237;&#x67e5;&#x8be2;"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuClientSearchActionPerformed"/>
+          </Events>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemAccurateSearch">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x6309;&#x5e10;&#x53f7;&#x7cbe;&#x786e;&#x67e5;&#x8be2;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="listUsers"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemClientByTel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x6309;&#x7535;&#x8bdd;&#x67e5;&#x8be2;&#x5ba2;&#x6237;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemClientByTelActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator3">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemFuzzySearch">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x6309;&#x59d3;&#x6c0f;&#x6a21;&#x7cca;&#x67e5;&#x8be2;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemFuzzySearchActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemAssetSearch">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x6309;&#x8d44;&#x4ea7;&#x6a21;&#x7cca;&#x67e5;&#x8be2;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemAssetSearchActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuSearchByAge">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x6309;&#x5e74;&#x9f84;&#x6a21;&#x7cca;&#x67e5;&#x8be2;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuSearchByAgeActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemSearchByServicePerson">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x6309;&#x670d;&#x52a1;&#x5458;&#x7edf;&#x8ba1;&#x67e5;&#x8be2;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemSearchByServicePersonActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemSearchBySatisfaction">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x6309;&#x5ba2;&#x6237;&#x6ee1;&#x610f;&#x5ea6;&#x67e5;&#x8be2;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemSearchBySatisfactionActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemClientNoTel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x67e5;&#x65e0;&#x7535;&#x8bdd;&#x6216;&#x7535;&#x8bdd;&#x7a7a;&#x53f7;&#x5ba2;&#x6237;&#x6e05;&#x5355;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemClientNoTelActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemSearchBySummary">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x6309;&#x56de;&#x8bbf;&#x6458;&#x8981;&#x5206;&#x7c7b;&#x67e5;&#x8be2;&#x5ba2;&#x6237;&#x6e05;&#x5355;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemSearchBySummaryActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator12">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemSearchByCallbackDate">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x6309;&#x56de;&#x8bbf;&#x65e5;&#x671f;&#x5206;&#x7c7b;&#x67e5;&#x8be2;&#x5ba2;&#x6237;&#x6e05;&#x5355;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemSearchByCallbackDateActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemClientListByAgent">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x6309;&#x7ecf;&#x7eaa;&#x4eba;&#x7edf;&#x8ba1;&#x67e5;&#x8be2;&#x5ba2;&#x6237;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemClientListByAgentActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemClientListByBirthday">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x6309;&#x751f;&#x65e5;&#x67e5;&#x8be2;&#x5ba2;&#x6237;&#x6e05;&#x5355;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemClientListByBirthdayActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuAlalystReport">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x6309;&#x5206;&#x6790;&#x5e08;&#x7edf;&#x8ba1;&#x67e5;&#x8be2;&#x5ba2;&#x6237;&#x6e05;&#x5355;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuAlalystReportActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator8">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemCreditClient">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x67e5;&#x8be2;&#x5f00;&#x901a;&#x878d;&#x8d44;&#x878d;&#x5238;&#x7684;&#x5ba2;&#x6237;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemCreditClientActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator22">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemLostClient">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x67e5;&#x8be2;&#x9690;&#x6027;&#x6d41;&#x5931;&#x5ba2;&#x6237;&#x6e05;&#x5355;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemLostClientActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator36">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemRepoDetails">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x67e5;&#x8be2;&#x56de;&#x8d2d;&#x4ea4;&#x6613;&#x660e;&#x7ec6;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemRepoDetailsActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="clientList_byEsignDate">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x6309;&#x7535;&#x5b50;&#x7b7e;&#x7ea6;&#x65e5;&#x671f;&#x67e5;&#x8be2;&#x5ba2;&#x6237;&#x6e05;&#x5355;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clientList_byEsignDateActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenuStatics">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x7edf;&#x8ba1;&#x5206;&#x6790;"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuStaticsActionPerformed"/>
+          </Events>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemAssetStatics">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x5ba2;&#x6237;&#x8d44;&#x4ea7;&#x5206;&#x5e03;&#x7edf;&#x8ba1;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemAssetStaticsActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemTotalAsset">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x5ba2;&#x6237;&#x603b;&#x8d44;&#x4ea7;&#x7edf;&#x8ba1;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jMenuItemTotalAssetMouseClicked"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemTotalAssetActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator4">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemSatifactionDegree">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x5ba2;&#x6237;&#x6ee1;&#x610f;&#x5ea6;&#x7edf;&#x8ba1;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemSatifactionDegreeActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator7">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemWorkReport">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x56de;&#x8bbf;&#x4e0e;&#x670d;&#x52a1;&#x5b89;&#x6392;&#x7edf;&#x8ba1;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemWorkReportActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemAgentReport">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x7ecf;&#x7eaa;&#x4eba;&#x5ba2;&#x6237;&#x8d44;&#x4ea7;&#x4f63;&#x91d1;&#x7edf;&#x8ba1;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemAgentReportActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemServicePersonClientAsset">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x670d;&#x52a1;&#x5458;&#x5ba2;&#x6237;&#x8d44;&#x4ea7;&#x4f63;&#x91d1;&#x7edf;&#x8ba1;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemServicePersonClientAssetActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemCommisionDistribution">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x5ba2;&#x6237;&#x4f63;&#x91d1;&#x5206;&#x5e03;&#x7edf;&#x8ba1;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemCommisionDistributionActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator15">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemServiceCheck">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x670d;&#x52a1;&#x8003;&#x6838;&#x7edf;&#x8ba1;&#x8868;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemServiceCheckActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemSumClientValue">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x5ba2;&#x6237;&#x4ef7;&#x503c;&#x6c47;&#x603b;&#x8868;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemSumClientValueActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemServiceCheckReport">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x670d;&#x52a1;&#x8003;&#x6838;&#x62a5;&#x8868;&#x4e00;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemServiceCheckReportActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemAgentMonthReport">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x7ecf;&#x7eaa;&#x4eba;&#x4e1a;&#x7ee9;&#x7edf;&#x8ba1;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemAgentMonthReportActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemAgentMonthReport1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x7ecf;&#x7eaa;&#x4eba;&#x4e1a;&#x7ee9;&#x7edf;&#x8ba1;&#x4e00;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemAgentMonthReport1ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator5">
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="jMenuProfitAnalysis">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x5ba2;&#x6237;&#x76c8;&#x4e8f;&#x5206;&#x6790;"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemProfitAnalysis">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x4e70;&#x5356;&#x76c8;&#x4e8f;&#x7edf;&#x8ba1;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemProfitAnalysisActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemAssetIncrement">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8d44;&#x4ea7;&#x589e;&#x503c;&#x7edf;&#x8ba1;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemAssetIncrementActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemSumProfit">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x76c8;&#x4e8f;&#x6c47;&#x603b;&#x5206;&#x6790;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemSumProfitActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemClientProfit">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x5ba2;&#x6237;&#x76c8;&#x4e8f;&#x67e5;&#x8be2;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemClientProfitActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemFloatProfit">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x6d6e;&#x52a8;&#x76c8;&#x4e8f;&#x5206;&#x6790;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemFloatProfitActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JSeparator" name="jSeparator29">
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemSumAppreciation">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x6309;&#x6295;&#x987e;&#x6c47;&#x603b;&#x5ba2;&#x6237;&#x76c8;&#x4e8f;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemSumAppreciationActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator33">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemNewSumAnalysis">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x65b0;&#x4e1a;&#x52a1;&#x4f63;&#x91d1;&#x8d21;&#x732e;&#x5206;&#x6790;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemNewSumAnalysisActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemContractInfo">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x67e5;&#x8be2;&#x5ba2;&#x6237;&#x7b7e;&#x7ea6;&#x4fe1;&#x606f;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemContractInfoActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenuFinanceProduct">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x7406;&#x8d22;&#x4ea7;&#x54c1;"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+            </Property>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemProductInfo">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x4ea7;&#x54c1;&#x4fe1;&#x606f;&#x7ef4;&#x62a4;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemProductInfoActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemProductInfoQuery">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x4ea7;&#x54c1;&#x4fe1;&#x606f;&#x67e5;&#x8be2;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemProductInfoQueryActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator38">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemProductClientQuery">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x4ea7;&#x54c1;-&#x5ba2;&#x6237;&#x67e5;&#x8be2;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemProductClientQueryActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemClientProductQuery">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x5ba2;&#x6237;-&#x4ea7;&#x54c1;&#x67e5;&#x8be2;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemClientProductQueryActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator39">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemproductTradingQuery">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x4ea7;&#x54c1;-&#x4ea4;&#x6613;&#x67e5;&#x8be2;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemproductTradingQueryActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemClientTradingQuery">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x5ba2;&#x6237;-&#x4ea4;&#x6613;&#x67e5;&#x8be2;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemClientTradingQueryActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator40">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemMultiQuery">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x7efc;&#x5408;&#x67e5;&#x8be2;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemMultiQueryActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemMultiSum">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x7efc;&#x5408;&#x7edf;&#x8ba1;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemMultiSumActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenuDataConverter">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x6570;&#x636e;&#x7ef4;&#x62a4;"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuDataConverterActionPerformed"/>
+          </Events>
+          <SubComponents>
+            <Menu class="javax.swing.JMenu" name="jMenuBasicData">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x57fa;&#x672c;&#x6570;&#x636e;&#x7ef4;&#x62a4;"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemZjdbf">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x8d44;&#x91d1;&#x8d44;&#x6599;&#x8868;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemZjdbfActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemZcdbf">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x5ba2;&#x6237;&#x8d44;&#x4ea7;&#x8868;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemZcdbfActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemFundBalance">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x8d44;&#x91d1;&#x4f59;&#x989d;&#x8868;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemFundBalanceActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemCjdbf">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x6210;&#x4ea4;&#x6c47;&#x603b;&#x8868;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemCjdbfActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1UdateClientInfo">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x66f4;&#x65b0;&#x5ba2;&#x6237;&#x670d;&#x52a1;&#x6570;&#x636e;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem1UdateClientInfoActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JSeparator" name="jSeparator11">
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemBackup">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x5907;&#x4efd;&#x5ba2;&#x6237;&#x670d;&#x52a1;&#x6570;&#x636e;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemBackupActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemRestoreClient">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x6062;&#x590d;&#x5ba2;&#x6237;&#x670d;&#x52a1;&#x6570;&#x636e;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemRestoreClientActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemRestoreFromDBF">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x4ece;DBF&#x6062;&#x590d;&#x5ba2;&#x6237;&#x670d;&#x52a1;&#x6570;&#x636e;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemRestoreFromDBFActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenuAdditionData">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x9644;&#x52a0;&#x4fe1;&#x606f;&#x7ef4;&#x62a4;"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemClientTelDBF">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x5e76;&#x66f4;&#x65b0;&#x5ba2;&#x6237;&#x7535;&#x8bdd;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemClientTelDBFActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemClientQQ">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x5e76;&#x66f4;&#x65b0;&#x5ba2;&#x6237;QQ&#x53f7;&#x7801;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemClientQQActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemIdCard">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x5e76;&#x66f4;&#x65b0;&#x5ba2;&#x6237;&#x8eab;&#x4efd;&#x8bc1;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemIdCardActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemClientAgent">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x5e76;&#x66f4;&#x65b0;&#x5ba2;&#x6237;&#x7ecf;&#x7eaa;&#x4eba;&#x5173;&#x7cfb;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemClientAgentActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JSeparator" name="jSeparator19">
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemIportServicePersons">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x5e76;&#x66f4;&#x65b0;&#x5ba2;&#x6237;-&#x670d;&#x52a1;&#x5458;&#x5173;&#x7cfb;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemIportServicePersonsActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JSeparator" name="jSeparator25">
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemIputStockPool">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x4ece;DBF&#x5bfc;&#x5165;&#x80a1;&#x7968;&#x6c60;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemIputStockPoolActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JSeparator" name="jSeparator32">
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemDBFUser">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x4ece;dbf&#x5bfc;&#x5165;&#x7528;&#x6237;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemDBFUserActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator21">
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="jMenuServiceCheck">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x670d;&#x52a1;&#x8003;&#x6838;&#x6570;&#x636e;&#x7ef4;&#x62a4;"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemMonthEndAsset">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x6708;&#x672b;&#x8d44;&#x4ea7;&#x6570;&#x636e;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemMonthEndAssetActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemCancelLog">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x5f00;&#x6237;&#x9500;&#x6237;&#x65e5;&#x5fd7;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemCancelLogActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemTransfer">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x94f6;&#x8bc1;&#x8f6c;&#x8d26;&#x6d41;&#x6c34;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemTransferActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JSeparator" name="jSeparator24">
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemAssetArchive">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8d44;&#x4ea7;&#x6570;&#x636e;&#x5f52;&#x6863;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemAssetArchiveActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemCalculte">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8ba1;&#x7b97;&#x670d;&#x52a1;&#x8003;&#x6838;&#x6307;&#x6807;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemCalculteActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JSeparator" name="jSeparator30">
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemMatchHhistory">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x5386;&#x53f2;&#x6210;&#x4ea4;&#x660e;&#x7ec6;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemMatchHhistoryActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemDataCheck">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x6570;&#x636e;&#x5b8c;&#x6574;&#x6027;&#x67e5;&#x8be2;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemDataCheckActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenuIteInvestmentAdvice">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x6295;&#x987e;&#x4e1a;&#x52a1;&#x6570;&#x636e;&#x7ef4;&#x62a4;"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuIteInvestmentAdviceActionPerformed"/>
+              </Events>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemContractClientTradingDetails">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x5f53;&#x65e5;&#x6210;&#x4ea4;&#x660e;&#x7ec6;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemContractClientTradingDetailsActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemsettlement">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x5f53;&#x65e5;&#x6210;&#x4ea4;&#x6e05;&#x7b97;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemsettlementActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JSeparator" name="jSeparator26">
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemStockAsset">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x5ba2;&#x6237;&#x8bc1;&#x5238;&#x8d44;&#x4ea7;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemStockAssetActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem8">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x4e24;&#x878d;&#x5ba2;&#x6237;&#x8bc1;&#x5238;&#x8d44;&#x4ea7;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem8ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemOrderData">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x5f53;&#x65e5;&#x59d4;&#x6258;&#x6570;&#x636e;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemOrderDataActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JSeparator" name="jSeparator27">
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemProfitCalculate">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x4e70;&#x5356;&#x76c8;&#x4e8f;&#x5206;&#x6790;&#x8ba1;&#x7b97;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemProfitCalculateActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JSeparator" name="jSeparator6">
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemCreditClientInfo">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x878d;&#x8d44;&#x878d;&#x5238;&#x5ba2;&#x6237;&#x8d44;&#x6599;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemCreditClientInfoActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemFinancing">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x7406;&#x8d22;&#x4ea7;&#x54c1;&#x5e93;&#x5b58;&#x6570;&#x636e;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemFinancingActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItemContractData">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x7b7e;&#x7ea6;&#x624b;&#x5de5;&#x8bb0;&#x5f55;&#x6570;&#x636e;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemContractDataActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JSeparator" name="jSeparator35">
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x56de;&#x8d2d;&#x8d26;&#x6237;&#x8d44;&#x6599;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem1ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x56de;&#x8d2d;&#x4ea4;&#x6613;&#x8d44;&#x6599;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem2ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JSeparator" name="jSeparator37">
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem6">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x8f6c;&#x5165;&#x7535;&#x5b50;&#x7b7e;&#x7ea6;&#x8d44;&#x6599;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem6ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator31">
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="jMenu1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x7406;&#x8d22;&#x4ea7;&#x54c1;&#x6570;&#x636e;&#x7ef4;&#x62a4;"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem7">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x5bfc;&#x5165;&#x57fa;&#x91d1;&#x8d44;&#x4ea7;&#x6570;&#x636e;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem7ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem9">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x5bfc;&#x5165;&#x57fa;&#x91d1;&#x4ea4;&#x6613;&#x6570;&#x636e;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem9ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem10">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x5bfc;&#x5165;&#x7406;&#x8d22;&#x4ea7;&#x54c1;&#x4fe1;&#x606f;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem10ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemSQL">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x52a0;&#x8f7d;SQL&#x811a;&#x672c;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemSQLActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x5176;&#x4ed6;&#x529f;&#x80fd;"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+            </Property>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x4fee;&#x6539;&#x5bc6;&#x7801;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem3ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x7cfb;&#x7edf;&#x9501;&#x5b9a;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem4ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x5907;&#x5fd8;&#x5f55;&#x7ba1;&#x7406;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem5ActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="&#x5ba2;&#x6237;&#x670d;&#x52a1;&#x7ba1;&#x7406;&#x7cfb;&#x7edf;V4.30"/>
+    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+      <Color id="Default Cursor"/>
+    </Property>
+    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+      <Font name="&#x534e;&#x6587;&#x4e2d;&#x5b8b;" size="18" style="0"/>
+    </Property>
+    <Property name="locationByPlatform" type="boolean" value="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosing"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="475" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="1"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                      <Component id="jLabel4" min="-2" pref="439" max="-2" attributes="1"/>
+                  </Group>
+                  <Component id="jPanel1" alignment="0" min="-2" max="-2" attributes="1"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel4" min="-2" pref="74" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+            <BevelBorder bevelType="1"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jPanel2" min="-2" max="-2" attributes="1"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jTextFieldUser" pref="119" max="32767" attributes="1"/>
+                          <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jTextFieldRole" min="-2" pref="118" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="156" max="-2" attributes="0"/>
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="174" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldUser" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldRole" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                <BevelBorder bevelType="1"/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabelProgress" pref="299" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabelProgress" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabelProgress">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="&#x5b8b;&#x4f53;" size="18" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="0" red="33" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="jLabel2"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x64cd;&#x4f5c;&#x5458;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x89d2;&#x8272;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldUser">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="0" red="0" type="rgb"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldUserActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldRole">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#x5b8b;&#x4f53;" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="0" red="0" type="rgb"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldRoleActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Modules/hxzqIcon.jpg"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="jLabel4MouseDragged"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

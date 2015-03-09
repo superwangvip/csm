@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="&#x7528;&#x6237;&#x6388;&#x6743;&#x8bf4;&#x660e;"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jScrollPane1" pref="522" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="24" max="32767" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="447" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="                &#x7528;&#x6237;&#x6388;&#x6743;&#x8bf4;&#x660e;&#xff1a;&#xa;&#x7528;&#x6237;&#x7684;&#x83dc;&#x5355;&#x64cd;&#x4f5c;&#x6743;&#x9650;&#x5177;&#x6709;&#x4e24;&#x4e2a;&#x7279;&#x5f81;&#xff1a;&#xa;1.&#x6743;&#x9650;&#x53e0;&#x52a0;&#xff1a;&#x5373;&#x7528;&#x6237;&#x7684;&#x6700;&#x7ec8;&#x64cd;&#x4f5c;&#x6743;&#x9650;&#x662f;&#x7531;&#x8be5;&#x7528;&#x6237;&#x6240;&#x5c5e;&#x89d2;&#x8272;&#x7684;&#x83dc;&#x5355;&#x6743;&#x9650;&#x4e0e;&#x4ed6;&#x81ea;&#x5df1;&#x7684;&#x83dc;&#x5355;&#xa;  &#x6743;&#x9650;&#x53e0;&#x52a0;&#x7ec4;&#x5408;&#x800c;&#x6210;&#xff1b;&#xa;2.&#x6743;&#x9650;&#x5c4f;&#x853d;&#xff1a;&#x7528;&#x6237;&#x83dc;&#x5355;&#x7684;&#x6743;&#x9650;&#x6807;&#x5fd7;&#x88ab;&#x7f3a;&#x7701;&#x8bbe;&#x4e3a;&#x201c;&#x5141;&#x8bb8;&#x201d;&#xff0c;&#x5982;&#x88ab;&#x8bbe;&#x4e3a;&#x7981;&#x6b62;&#xff0c;&#x5219;&#x53ef;&#x4ee5;&#x5c4f;&#x853d;&#xa;  &#x4ed6;&#x7684;&#x76f8;&#x5e94;&#x89d2;&#x8272;&#x83dc;&#x5355;&#x6743;&#x9650;&#xff0c;&#x4f8b;&#x5982;&#xff1a;&#x67d0;&#x7528;&#x6237;&#x5c5e;&#x4e8e;&#x201c;&#x670d;&#x52a1;&#x5458;&#x201d;&#x89d2;&#x8272;&#xff0c;&#x6b64;&#x89d2;&#x8272;&#x672c;&#x6765;&#x62e5;&#x6709;&#x201c;&#x670d;&#xa;  &#x52a1;&#x7ba1;&#x7406;-&#x5ba2;&#x6237;&#x56de;&#x8bbf;&#x201d;&#x7684;&#x83dc;&#x5355;&#x6743;&#x9650;&#xff0c;&#x4f46;&#x662f;&#x53ef;&#x4ee5;&#x4e3a;&#x8be5;&#x7528;&#x6237;&#x5355;&#x72ec;&#x6dfb;&#x52a0;&#x4e00;&#x4e2a;&#x76f8;&#x540c;&#x83dc;&#x5355;&#x9879;&#xff0c;&#x5e76;&#xa;  &#x628a;&#x201c;&#x6743;&#x9650;&#x6807;&#x5fd7;&#x201d;&#x8bbe;&#x4e3a;&#x201c;&#x7981;&#x6b62;&#x201d;&#xff0c;&#x90a3;&#x4e48;&#x6700;&#x7ec8;&#x8be5;&#x7528;&#x6237;&#x7684;&#x201c;&#x5ba2;&#x6237;&#x56de;&#x8bbf;&#x201d;&#x6743;&#x9650;&#x5c31;&#x88ab;&#x5c4f;&#x853d;&#x6389;&#xff1b;&#xa;&#xa;&#x64cd;&#x4f5c;&#x8981;&#x9886;&#x5982;&#x4e0b;&#xff1a;&#xa;1.&#x9996;&#x5148;&#x70b9;&#x51fb;&#x9009;&#x62e9;&#x8981;&#x8981;&#x6388;&#x6743;&#x7684;&#x7528;&#x6237;&#xff0c;&#x7cfb;&#x7edf;&#x4f1a;&#x7acb;&#x523b;&#x5217;&#x51fa;&#x8be5;&#x7528;&#x6237;&#x88ab;&#x5355;&#x72ec;&#x6388;&#x4e88;&#x7684;&#x83dc;&#x5355;&#x9879;&#xff0c;&#x4f46;&#xa;  &#x4e0d;&#x4f1a;&#x5217;&#x51fa;&#x5176;&#x6240;&#x5c5e;&#x89d2;&#x8272;&#x7684;&#x83dc;&#x5355;&#x9879;&#xff1b;&#xa;2.&#x8981;&#x6dfb;&#x52a0;&#x8be5;&#x7528;&#x6237;&#x7684;&#x6743;&#x9650;&#x83dc;&#x5355;&#x9879;&#xff0c;&#x5148;&#x70b9;&#x51fb;&#x9009;&#x62e9;&#x7cfb;&#x7edf;&#x83dc;&#x5355;&#x4e2d;&#x7684;&#x6240;&#x9700;&#x83dc;&#x5355;&#x9879;&#xff0c;&#x7136;&#x540e;&#x70b9;&#x51fb;&#xa;  &#x201c;&#x6dfb;&#x52a0;&#x201d;&#x6309;&#x94ae;&#xff1b;&#xa;3.&#x8981;&#x5220;&#x9664;&#x8be5;&#x7528;&#x6237;&#x7684;&#x67d0;&#x4e2a;&#x6743;&#x9650;&#x83dc;&#x5355;&#x9879;&#xff0c;&#x5148;&#x70b9;&#x51fb;&#x9009;&#x62e9;&#x8be5;&#x83dc;&#x5355;&#x9879;&#xff0c;&#x518d;&#x70b9;&#x51fb;&#x201c;&#x5220;&#x9664;&#x201d;&#x6309;&#x94ae;&#xff1b;&#xa;4.&#x8981;&#x5c4f;&#x853d;&#x8be5;&#x7528;&#x6237;&#x7684;&#x89d2;&#x8272;&#x83dc;&#x5355;&#x9879;&#xff0c;&#x5148;&#x70b9;&#x51fb;&#x5de6;&#x952e;&#x9009;&#x62e9;&#x8be5;&#x7528;&#x6237;&#x83dc;&#x5355;&#x9879;&#xff0c;&#x518d;&#x70b9;&#x51fb;&#x53f3;&#x952e;&#x6253;&#x5f00;&#xa;  &quot;&#x6743;&#x9650;&#x6807;&#x5fd7;&quot;&#x83dc;&#x5355;&#x5e76;&#x9009;&#x62e9;&#x201c;&#x7981;&#x6b62;&#x201d;&#xff1b;&#xa;5.&#x4e0a;&#x8ff0;&#x6240;&#x6709;&#x64cd;&#x4f5c;&#x4f1a;&#x7acb;&#x5373;&#x5199;&#x5165;&#x6570;&#x636e;&#x5e93;&#xff0c;&#x64cd;&#x4f5c;&#x5b8c;&#x6bd5;&#x53ef;&#x7acb;&#x5373;&#x9000;&#x51fa;&#x754c;&#x9762;&#xff1b;&#xa;6.&#x8981;&#x6dfb;&#x52a0;&#x591a;&#x7ea7;&#x83dc;&#x5355;&#x7684;&#x67d0;&#x4e2a;&#x5b50;&#x9879;&#xff0c;&#x5fc5;&#x987b;&#x6309;&#x81ea;&#x4e0a;&#x800c;&#x4e0b;&#x7684;&#x641c;&#x7d22;&#x8def;&#x5f84;&#x4f9d;&#x6b21;&#x6dfb;&#x52a0;&#x5176;&#x4e0a;&#x5404;&#x7ea7;&#x83dc;&#xa;  &#x5355;&#x9879;&#xff0c;&#x4f46;&#x6dfb;&#x52a0;&#x8981;&#x201c;&#x7981;&#x6b62;&#x201d;&#x7684;&#x83dc;&#x5355;&#x9879;&#x65f6;&#xff0c;&#x4e0d;&#x5fc5;&#x6dfb;&#x52a0;&#x4e0a;&#x7ea7;&#x83dc;&#x5355;&#x9879;&#x3002;&#xa;  "/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x53d6;&#x6d88;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
